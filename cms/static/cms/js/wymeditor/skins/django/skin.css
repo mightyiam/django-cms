@@ -111,6 +111,9 @@
         .wym_skin_django .wym_buttons li.wym_tools_html a          { background-position: 0 -193px;}
         .wym_skin_django .wym_buttons li.wym_tools_preview a       { background-position: 0 -408px;}
 		.wym_skin_django .wym_buttons li.wym_tools_pagelink a      { background-position: 0 -623px;}
+        .wym_skin_django .wym_buttons li.wym_tools_direction_ltr a { background-image: url(../../../../wymeditor/skins/default/icons.png); background-position: 0 -623px;}
+        .wym_skin_django .wym_buttons li.wym_tools_direction_rtl a { background-image: url(../../../../wymeditor/skins/default/icons.png); background-position: 0 -647px;}
+        .wym_skin_django .wym_buttons li.wym_tools_direction_remove a { background-image: url(../../../../wymeditor/skins/default/icons.png); background-position: 0 -671px;}
 		
 
 /*DECORATION*/
