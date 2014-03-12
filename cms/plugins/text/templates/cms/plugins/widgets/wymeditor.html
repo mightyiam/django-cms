@@ -1,4 +1,9 @@
 {% load i18n staticfiles %}
+<!-- BiDi plugin -->
+<script type="text/javascript" src="
+    {{ STATIC_URL }}cms/wymeditor/plugins/bidi/jquery.wymeditor.bidi.js
+"></script>
+
 <script type="text/javascript">
 //<![CDATA]
 
@@ -42,6 +47,8 @@ var editPluginPopupCallbacks = {};
 				 //wym.resizable({handles: "s", maxHeight: 600});
 				//construct the insertLinkButton html
 				html = get_plugin_html()
+                // BiDi plugin
+                wym.bidi();
 				//add the button to the tools box
 				$(wym._box)
 				.find(wym._options.toolsSelector + wym._options.toolsListSelector)

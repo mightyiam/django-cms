@@ -19,6 +19,7 @@ class WYMEditor(Textarea):
         css = {
             'all': [cms_static_url(path) for path in (
                         'css/jquery/cupertino/jquery-ui.css',
+                        'wymeditor/plugins/bidi/wymeditor.bidi.css',
                     )],
         }
 
